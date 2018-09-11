@@ -46,7 +46,7 @@ You should change:
 - selection_λ: 
 
 The model is sensitive, and recommended λ:
-- 0: pick the hole sentence as rationale and do prediction on it, a kind of baseline as text-CNN.
+- 0: pick the whole sentence as rationale and do prediction on it, a kind of baseline as text-CNN.
 - 0.01
 - 0.005
 - 0.001
@@ -69,4 +69,7 @@ Using `./analysis/frequency.py` to get rationale occurence. There are several fu
 
 
 ##### Adding new dataset:
+- Add a pytorch Dataset object to `./rationale_net/datasets` and register it to the dataset factory. See the news_group, beer_review, gender, gender_sentiment datasets for an example.
+- Add the corresponding import to `./rationale_net/datasets/__init__.py`
+- Take `./rationale_net/datasets/gender.py` as an example, you can change datapath, train/val/test data amount, class number, maxlength of a sentence.
 
