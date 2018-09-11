@@ -71,5 +71,5 @@ Using `./analysis/frequency.py` to get rationale occurence. There are several fu
 ##### Adding new dataset:
 - Add a pytorch Dataset object to `./rationale_net/datasets` and register it to the dataset factory. See the news_group, beer_review, gender, gender_sentiment datasets for an example.
 - Add the corresponding import to `./rationale_net/datasets/__init__.py`
-- Take `./rationale_net/datasets/gender.py` as an example, you can change datapath, train/val/test data amount, class number, maxlength of a sentence.
+- Take `./rationale_net/datasets/gender.py` as an example, you can change datapath, train/val/test data amount, class number, maxlength of a sentence. (You can see the corresponding path in the __init__.py file)
 
