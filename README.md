@@ -42,7 +42,7 @@ cross_entropy --patience 10 --save_dir snapshot --train --test --results_path lo
 ```
 You should change:
 - result_path: path and name of the file
-- dataset: the data you use
+- dataset: the data you use, register it before use it.
 - selection_λ: 
 
 The model is sensitive, and recommended λ:
