@@ -100,4 +100,4 @@ You can do:
 
 https://drive.google.com/open?id=1EojAqeqdCMwZiXgpBzik5PUnZm5O_jAR
 
-Processed from original culture data. Including 5 kinds of restaruants, chinese, mexican, japanese, french/italy, korean.
+Processed from original culture data. Including 5 kinds of restaruants, chinese, mexican, japanese, french/italy, american/cannada.
