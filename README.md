@@ -29,7 +29,8 @@ The model has a generator and an encoder:
 - Encoder: a text-CNN model for classification only on picked rationales.
 
 #### Requirements
-The input is 300-dimensional word embedding from GloVe-300.
+The input is 300-dimensional word embedding from GloVe-300， in `./data/embeddings/glove.6B`.
+The dataset path `./raw_data/`.
 
 #### Usage
 ##### Running example:
