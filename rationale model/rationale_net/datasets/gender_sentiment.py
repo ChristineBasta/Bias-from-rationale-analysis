@@ -12,7 +12,7 @@ SMALL_TRAIN_SIZE = 800
 @RegisterDataset('gender_sentiment')
 class LongGenderDataset(AbstractDataset):
 
-    def __init__(self, args, word_to_indx, mode, max_length=800, stem='raw_data/gender_sentiment/all_sent_'):
+    def __init__(self, args, word_to_indx, mode, max_length=800, stem='raw_data/gender_sentiment/all_sent_shuffle_'):
         #aspect = args.aspect
         self.args= args
         self.name = mode
