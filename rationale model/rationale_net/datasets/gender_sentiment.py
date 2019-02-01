@@ -28,6 +28,7 @@ class LongGenderDataset(AbstractDataset):
         with gzip.open(stem + self.name_to_key[self.name] + '.txt.gz') as gfile:
             lines = gfile.readlines()
             lines = list(zip(range(len(lines)), lines))
+            random.shuffle(lines)
             if args.debug_mode:
                 lines = lines[:SMALL_TRAIN_SIZE]
             elif self.name == 'dev':
